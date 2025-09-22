@@ -7,6 +7,6 @@ data = [
 ]
 
 df = pd.DataFrame(data)
-df['salary']=[100,200,300]
-df=df.drop('city',axis=1)
+df['salary']=[100,200,300]     #adds a column salary
+df=df.drop('salary',axis=1)       #drops/deletes a column salary
 print(df)
